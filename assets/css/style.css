@@ -115,6 +115,14 @@ h1.name{
 
 }
 
+.portfolioHeading{
+	margin-bottom: 0; 
+	color: #4aaaa5;
+
+}
+
+
+
 hr{
 	margin:20px auto;
 	/*background-color: grey;*/
@@ -354,11 +362,14 @@ div#footer{
 
 @media only screen and (max-width : 980px) {
 	div.wrapper{
-		width:1000px;
+		width:1127px;
+	}
+	#navbar{
+		width:1023px;
 	}
 	div.container{
 		max-width: 622px;
-		margin: 52px;
+		margin: 84px;
 
 	}
 	div.main{
@@ -370,4 +381,34 @@ div#footer{
 		position: static;
 		padding: 0 32px;
 		}
+	div#footer{
+		width:1190px;
+	}
+	}
+
+	@media only screen and (max-width : 768px){
+		#navbar{
+		width:1001px;
+		margin-left: 83px;
+	}
+		div.container{
+		max-width: 960px;
+		margin: 116px;
+
+	}
+		div#footer {
+	    width: 1191px;
+	    bottom: -253px;
+	}
+	#lineHeader{
+		width:800px;	
+	}
+	.portfolioHeading{
+		margin-left: 54px;
+	}
+	.column{
+		margin:13%;
+		transform: scale(1.6);
+	}
+
 	}
