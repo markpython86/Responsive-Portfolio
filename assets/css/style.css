@@ -198,18 +198,12 @@ li:hover{
 
 /*responsive page when screen is 760px*/
 
-@media only screen and (max-width : 762px) {
+/*@media only screen and (max-width : 762px) {
 	.name{
 		margin-top: 15px;
 	}	
 
 
-
-	/*header {
-
-		position: absolute;
-
-	}*/
 
 	#menu-icon {
 		float: right;
@@ -251,7 +245,7 @@ li:hover{
 
 }
 
-
+*/
 
 
 /*portfolio page elements*/
@@ -355,3 +349,25 @@ div#footer{
 	margin-top: 51px;
 }
 
+
+/*Media queries for responsive website*/
+
+@media only screen and (max-width : 980px) {
+	div.wrapper{
+		width:1000px;
+	}
+	div.container{
+		max-width: 622px;
+		margin: 52px;
+
+	}
+	div.main{
+		margin:-76px auto;
+		padding: 24px 25px;
+	}
+
+	div.header{
+		position: static;
+		padding: 0 32px;
+		}
+	}
