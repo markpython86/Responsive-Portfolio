@@ -22,7 +22,7 @@ li.about, li.portfolio, li.contact{
 
 html, body{
 	margin:0 auto;
-	height: 100%;
+	/*height: 100%;*/
 	position: relative;
 	font-size: 18px;
 	text-align: center;
@@ -387,28 +387,33 @@ div#footer{
 	}
 
 	@media only screen and (max-width : 768px){
+		div.wrapper {
+    width: 768px;
+    margin: 0 auto;
+    height: 100%;
+}
+div.header{
+	padding: 0;
+}
 		#navbar{
-		width:1001px;
-		margin-left: 83px;
+		width:730px;
+		/*margin-left: 83px;*/
 	}
-		div.container{
-		max-width: 960px;
-		margin: 116px;
-
-	}
+		div.container {
+    max-width: 727px;
+    margin: 0px 21px;
+}
 		div#footer {
-	    width: 1191px;
+	    width: 768px;
 	    bottom: -253px;
 	}
-	#lineHeader{
-		width:800px;	
-	}
+	
 	.portfolioHeading{
-		margin-left: 54px;
+		margin-left: 11px;
 	}
 	.column{
-		margin:13%;
-		transform: scale(1.6);
+		margin:64px;
+		transform: scale(1.5);
 	}
 
 	}
